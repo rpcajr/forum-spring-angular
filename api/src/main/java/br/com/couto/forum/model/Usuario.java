@@ -23,7 +23,6 @@ public class Usuario implements UserDetails {
 	private Long id;
 	private String nome;
 	private String email;
-	@JsonIgnore
 	private String senha;
 
 	@ManyToMany(fetch = FetchType.EAGER)
